@@ -1,0 +1,143 @@
+%!TEX TS-program = xelatex
+\documentclass[]{friggeri-cv}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage{xcolor}
+\hypersetup{
+	pdftitle={},
+	pdfauthor={},
+	pdfsubject={},
+	pdfkeywords={},
+	colorlinks=false,       % no lik border color
+	allbordercolors=white    % white border color for all
+}
+\addbibresource{bibliography.bib}
+\RequirePackage{xcolor}
+\definecolor{pblue}{HTML}{0395DE}
+
+\begin{document}
+\header{Chao}{Li}
+{Software Engineer}
+
+% Fake text to add separator      
+\fcolorbox{white}{gray}{\parbox{\dimexpr\textwidth-2\fboxsep-2\fboxrule}{%
+	.....
+}}
+
+% In the aside, each new line forces a line break
+\begin{aside}
+	\section{Education}
+	\textbf{Master of Science in 
+	Computer Science}, 
+	2013-2015
+	Worcester Polytechnic 
+	Institute, US
+	~
+	\textbf{Bachelor in 
+	Computer Science}, 
+	2008-2012
+	Tianjin University of 
+	Technology, China
+	\section{Skills highlights}
+	\textbf{Programming Languages:}\\
+	Python, C++, JAVA, Scala, Matlab, SQL, VBA, LaTex, Markdown, etc.
+	\vspace{3mm}
+	\textbf{Database:}\\
+	MySQL, Oracle, MS SQL Server, NoSQL, etc.
+	\vspace{3mm}
+	\textbf{Distributed computation:}\\
+	Apache Hadoop, Apache Spark, HDFS, etc.
+	\vspace{3mm}
+	\textbf{Data processing:}\\
+	ETL, data mining, mathematical optimization, ANN, SVM, etc.
+	\vspace{3mm}
+	\textbf{Systems:}\\
+	AWS, Linux, Unix, OS X, Windows, etc.
+	\vspace{3mm}
+	\textbf{Scientific computation:}\\
+	CPLEX,CUDA,Gurobi,CVX
+	\vspace{3mm}
+	\textbf{Development env:}\\
+	Eclipse, Visual Studio, Vim, etc.
+	\section{Address}
+	45383 Onondaga drive,
+	Fremond, CA, 94539
+	\section{Tel}
+	+1(774)3295650
+	\section{Mail}
+	\href{mailto:lichao90@outlook.com}{\textbf{lichao90@}outlook.com}
+	\section{Web}
+	\href{http://chaopli.github.io}{chaopli.github.io}
+	\includegraphics[scale=0.1]{img/Chao_Li.png}
+\end{aside}
+
+
+I have pursued in computer science for 7 years, learned more than 10 programming languages and various RDBMSs, libaries; participated in more than 5 programming projects. I have been interested in algorithms for 5 years and did lots of research resulting in 2 Journal Publications and 1 Book. Now seeking for an entry level position exposed to algorithms or data science. Actively opened to Machine Learning knowledge.
+\section{Projects}
+\begin{entrylist}
+	\entry
+	{02/14 - 05/14}
+	{Network protocol simulation and application}
+	{Computer networks course project}
+	{
+		\vspace{-3mm}
+		\begin{itemize}
+			\item Team leader of a group collaborating with another 2 people.
+			\item Emulated the selective repeat algorithm and go back N algorithm of TCP protocols, running on a emulated linked layer, using Linux socket.
+			\item Implemented a chat application with server and client using Linux sockets with the ability to handle multiple clients simultaneously.
+		\end{itemize}
+	}
+	\entry
+	{04/13 - 05/13}
+	{Parallelize the convolution based Ultra-sound image emulation algorithm}
+	{Intern project}
+	{
+		\vspace{-3mm}
+		\begin{itemize}
+			\item Worked following supervisor, and studied the convolution based Ultra-sound image emulation algorithm.
+			\item Parallelized the CPU implementation taking advantage of CUDA.
+			\item Paralleled program runs at least 10 times faster than the original program.
+		\end{itemize}
+	}
+	\entry
+	{}
+	{Personal multimedia files management system}
+	{Undergraduate study course project}
+	{
+		\vspace{-3mm}
+		\begin{itemize}
+			\item Team leader of a group collaborating with another 3 people.
+			\item Responsible for database design using MySQL and logical layer using Qt SDK.
+			\item Mergerd the logic layer to the UI written with Qt SDK by other team members.
+	    \end{itemize}
+	}
+	\entry
+	{09/10 - 10/11}
+	{Study on the Object Tracking in Video Stream}
+	{College student innovation project}
+	{
+		\vspace{-3mm}
+		\begin{itemize}
+			\item Studied Meanshift algorithm and Particle Filter algorithm;
+			\item Implemented both of the above two algorithms in C++ and OpenCV;
+			\item Blended the two algorithms.
+		\end{itemize}
+	}
+\end{entrylist}
+\section{Publications}
+\textbf{On the combinatorics of binary serires-parallel graphs}\\
+Micha Hofri, Chao Li, Hosam Mahmoud\\
+\emph{Accepted by Probability in the Engineering and Informational Science.}\\
+\vspace{-3mm}\\
+\textbf{Recovering All Generalized Order-Preserving Submatrices: New Exact
+Formulations and Algorithms}\\
+Andrew Trapp; Chao Li; Patrick Flaherty\\
+\emph{Accepted by Annals of Operations Research}
+\section{Book}
+\textbf{Semidefinite programming, binary codes and a graph coloring problem}\\
+Chao Li\\
+\emph{Published by LAP LAMBERT Academic Publishing, ISBN-13: 978-3-659-76426-4}
+~\\
+Note: For details of book and publications, please find on my website: scan the QRC or open \href{http://chaopli.github.io} in browser.
+\end{document}
