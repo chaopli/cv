@@ -207,11 +207,11 @@ BoldItalicFont=texgyreheros-bolditalic.otf
     \par\vspace{\baselineskip}{\Large\headingfont\color{pblue} ##1}
   }
   \begin{textblock}{5}(0.5, 0.55)
-  \begin{flushright}
+  \begin{flushleft}
   \obeycr
 }{%
   \restorecr
-  \end{flushright}
+  \end{flushleft}
   \end{textblock}
   \let\section\oldsection
 }
